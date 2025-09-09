@@ -623,6 +623,68 @@
 //}
 
 
+
+
+import java.util.Scanner;
+
+public class Main{
+    public static int sum(int a, int b){
+        System.out.println("The sum of c and d is:");
+        System.out.println(a+b);
+        return a+b;
+    }
+    public static int mul(int e, int f){
+        System.out.println("The product of g and h is:");
+        System.out.println(e*f);
+        return e*f;
+    }
+    public static int div(int i, int j){
+        System.out.println("k divided by l is:");
+        System.out.println(i/j);
+        return i/j;
+    }
+    public static int minus(int m, int n){
+        System.out.println("O minus P is:");
+        System.out.println(m-n);
+        return m-n;
+    }
+    public static int modulo(int q, int r){
+        System.out.println("The remainder is:");
+        System.out.println(q%r);
+        return q%r;
+    }
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Please enter c:");
+        int c = sc.nextInt();
+        System.out.println("Please enter d:");
+        int d = sc.nextInt();
+        sum(c,d);
+        System.out.println("Please enter g:");
+        int g = sc.nextInt();
+        System.out.println("Please enter h:");
+        int h = sc.nextInt();
+        mul(g,h);
+        System.out.println("Please enter k:");
+        int k = sc.nextInt();
+        System.out.println("Please enter L:");
+        int l = sc.nextInt();
+        div(k,l);
+        System.out.println("Please enter O:");
+        int o = sc.nextInt();
+        System.out.println("Please enter P:");
+        int p = sc.nextInt();
+        minus(o,p);
+        System.out.println("Please enter S:");
+        int s = sc.nextInt();
+        System.out.println("Please enter T:");
+        int t = sc.nextInt();
+        modulo(s,t);
+    }
+}
+
+
+
 //26
 //code for sum of two number input by user in functiions and methods;
 
