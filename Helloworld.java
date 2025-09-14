@@ -623,65 +623,138 @@
 //}
 
 
+//------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+// import java.util.Scanner;
+
+// public class Main{
+//     public static String[] name(String a, String b){
+//         System.out.println("Your paragraphs are:");
+//         String para3 = a;
+//         String para4 = b;
+//         System.out.println(para3);
+//         System.out.println(para4);
+//         return new String[]{a,b};     
+    
+//     }
+//     public static Long[] num(Long a, Long b, Long c, Long d){
+//         Long num1 = a;
+//         Long num2 = b;
+//         Long num3 = c;
+//         Long num4 = d;
+//         System.out.println("Your phone numbers are:");
+//         System.out.println(num1);
+//         System.out.println(num2);
+//         System.out.println(num3);
+//         System.out.println(num4);
+//         return new Long[]{a,b,c,d};
+//     }
+//     public static double[] dec(double a,double b,double c,double d){
+//         System.out.println("Your values are:");
+//         double val1 = a;
+//         double val2 = b;
+//         double val3 = c;
+//         double val4 = d;
+//         System.out.println((double)val1);
+//         System.out.println((double)val2);
+//         System.out.println((double)val3);
+//         System.out.println((double)val4);
+//         return new double[]{a,b,c,d};
+//     }
+//     public static void main(String args[]){
+//         Scanner sc = new Scanner(System.in);
+//         System.out.println("Please enter para1:");
+//         String para1 = sc.nextLine();
+//         System.out.println("Please enter para2:");
+//         String para2 = sc.nextLine();
+//         name(para1,para2);
+//         //---------------------------------------------------------------------------------------
+//         System.out.println("Please enter phone numbers:");
+//         System.out.println("Please enter first number:");
+//         Long num1 = sc.nextLong();
+//         System.out.println("Please enter second number:");
+//         Long num2 = sc.nextLong();
+//         System.out.println("Please enter third number:");
+//         Long num3 = sc.nextLong();
+//         System.out.println("Please enter fourth number:");
+//         Long num4 = sc.nextLong();
+//         num(num1,num2,num3,num4);
+//         //-------------------------------------------------------------------------------------
+//         System.out.println("Please enter decimal values:");
+//         System.out.println("Please enter first value:");
+//         double val1 = sc.nextDouble();
+//         System.out.println("Please enter second value:");
+//         double val2 = sc.nextDouble();
+//         System.out.println("Please enter third value:");
+//         double val3 = sc.nextDouble();
+//         System.out.println("Please enter fourth value:");
+//         double val4 = sc.nextDouble();
+//         dec(val1,val2,val3,val4);
+//     }
+// }
 
 
-import java.util.Scanner;
+//-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-public class Main{
-    public static int sum(int a, int b){
-        System.out.println("The sum of c and d is:");
-        System.out.println(a+b);
-        return a+b;
-    }
-    public static int mul(int e, int f){
-        System.out.println("The product of g and h is:");
-        System.out.println(e*f);
-        return e*f;
-    }
-    public static int div(int i, int j){
-        System.out.println("k divided by l is:");
-        System.out.println(i/j);
-        return i/j;
-    }
-    public static int minus(int m, int n){
-        System.out.println("O minus P is:");
-        System.out.println(m-n);
-        return m-n;
-    }
-    public static int modulo(int q, int r){
-        System.out.println("The remainder is:");
-        System.out.println(q%r);
-        return q%r;
-    }
-    public static void main(String args[]){
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Please enter c:");
-        int c = sc.nextInt();
-        System.out.println("Please enter d:");
-        int d = sc.nextInt();
-        sum(c,d);
-        System.out.println("Please enter g:");
-        int g = sc.nextInt();
-        System.out.println("Please enter h:");
-        int h = sc.nextInt();
-        mul(g,h);
-        System.out.println("Please enter k:");
-        int k = sc.nextInt();
-        System.out.println("Please enter L:");
-        int l = sc.nextInt();
-        div(k,l);
-        System.out.println("Please enter O:");
-        int o = sc.nextInt();
-        System.out.println("Please enter P:");
-        int p = sc.nextInt();
-        minus(o,p);
-        System.out.println("Please enter S:");
-        int s = sc.nextInt();
-        System.out.println("Please enter T:");
-        int t = sc.nextInt();
-        modulo(s,t);
-    }
-}
+
+
+// import java.util.Scanner;
+
+// public class Main{
+//     public static int sum(int a, int b){
+//         System.out.println("The sum of c and d is:");
+//         System.out.println(a+b);
+//         return a+b;
+//     }
+//     public static int mul(int e, int f){
+//         System.out.println("The product of g and h is:");
+//         System.out.println(e*f);
+//         return e*f;
+//     }
+//     public static int div(int i, int j){
+//         System.out.println("k divided by l is:");
+//         System.out.println(i/j);
+//         return i/j;
+//     }
+//     public static int minus(int m, int n){
+//         System.out.println("O minus P is:");
+//         System.out.println(m-n);
+//         return m-n;
+//     }
+//     public static int modulo(int q, int r){
+//         System.out.println("The remainder is:");
+//         System.out.println(q%r);
+//         return q%r;
+//     }
+//     public static void main(String args[]){
+//         Scanner sc = new Scanner(System.in);
+//         System.out.println("Please enter c:");
+//         int c = sc.nextInt();
+//         System.out.println("Please enter d:");
+//         int d = sc.nextInt();
+//         sum(c,d);
+//         System.out.println("Please enter g:");
+//         int g = sc.nextInt();
+//         System.out.println("Please enter h:");
+//         int h = sc.nextInt();
+//         mul(g,h);
+//         System.out.println("Please enter k:");
+//         int k = sc.nextInt();
+//         System.out.println("Please enter L:");
+//         int l = sc.nextInt();
+//         div(k,l);
+//         System.out.println("Please enter O:");
+//         int o = sc.nextInt();
+//         System.out.println("Please enter P:");
+//         int p = sc.nextInt();
+//         minus(o,p);
+//         System.out.println("Please enter S:");
+//         int s = sc.nextInt();
+//         System.out.println("Please enter T:");
+//         int t = sc.nextInt();
+//         modulo(s,t);
+//     }
+// }
 
 
 
